@@ -19,4 +19,6 @@ from django.urls import include, path
 urlpatterns = [
     path('catalogo/', include('catalogo.urls')),
     path('admin/', admin.site.urls),
+    path('__debug__/', include('debug_toolbar.urls')),
+    path('accounts/', include('registration.backends.default.urls')),
 ]
