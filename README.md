@@ -1,2 +1,2 @@
 # librosmil
-Tienda online de libros. Django 
+Tienda online de libros militares. Se programa en Django 
